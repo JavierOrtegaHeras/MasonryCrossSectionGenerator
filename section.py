@@ -21,7 +21,6 @@ def GenerateCrossSect(X=0.6, Y=0.4, K=0.75, sides=14):
 
     # draw polygons
     fig = plt.figure()
-    # ax1=fig.add_subplot(111)
 
     for i in range(0, len(X1limits)):
         l = X1limits[i]
@@ -178,7 +177,6 @@ def GenerateCrossSect(X=0.6, Y=0.4, K=0.75, sides=14):
             for j in range(0, sides):
                 StoneF.append((Xpoints[j], Ypoints[j]))
         plt.plot(Xpoints, Ypoints)
-        # ax1.plot(Xpoints,Ypoints,marker='o')
 
     plt.show()
 
@@ -192,7 +190,6 @@ def GenerateCrossSectTS(X=0.6, Y=0.4, K=0.75, sides=14):
 
     # draw polygons
     fig = plt.figure()
-    # ax1=fig.add_subplot(111)
 
     for i in range(0, len(X1limits)):
         l = X1limits[i]
@@ -489,7 +486,6 @@ def GenerateCrossSectTS(X=0.6, Y=0.4, K=0.75, sides=14):
             for j in range(0, sides):
                 StoneD.append((Xpoints[j], Ypoints[j]))
         plt.plot(Xpoints, Ypoints)
-        # ax1.plot(Xpoints,Ypoints,marker='o')
 
     plt.show()
 
