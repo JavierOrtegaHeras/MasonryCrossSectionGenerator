@@ -8,10 +8,6 @@ import random
 def divideCrossSect(X=0.7, Y=0.5, a=2, b=3,
                     # c = 2, (in case we want to change the vertical division of the cross-section)
                     ):
-    # #plot rectangle
-    # Xrectangle=[0,X,X,0]
-    # Yrectangle=[0,0,Y,Y]
-    # plt.plot(Xrectangle,Yrectangle,marker="o")
 
     # divide for number of divisions a and b in X and c in Y
     Xdiv1 = random.randint(a, b)
