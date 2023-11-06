@@ -44,4 +44,4 @@ The parameters to control in the script are: </br>
 The output will be n dxf files (one per cross-section generated) that will be stored in the output folder within the project.
 
 ## Licence
-MasonryCrossSectioNGenerator is available under the Creative Commons Attribution 4.0 International license. See the LICENSE file for more info.
+MasonryCrossSectionGenerator is available under the Creative Commons Attribution 4.0 International license. See the LICENSE file for more info.
