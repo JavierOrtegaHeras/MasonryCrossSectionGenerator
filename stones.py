@@ -118,12 +118,10 @@ def randomStone(sides=12, A=0.35, B=0.25):
 def BotLefSt(Xpoints, Ypoints, sides, l, h):
     for i in range(0, sides):
         if Xpoints[i] < 0.015:
-            # Xpoints[i]=0+random.randint(-50,50)/10000
             Xpoints[i] = 0
 
     for i in range(0, sides):
         if Ypoints[i] < 0.015:
-            # Ypoints[i]=0+random.randint(-50,50)/10000
             Ypoints[i] = 0
 
     # add corner point
@@ -150,12 +148,10 @@ def BotLefSt(Xpoints, Ypoints, sides, l, h):
 def BotRigSt(Xpoints, Ypoints, sides, l, h):
     for i in range(0, sides):
         if Xpoints[i] > (l - 0.015):
-            # Xpoints[i]=l+random.randint(-50,50)/10000
             Xpoints[i] = l
 
     for i in range(0, sides):
         if Ypoints[i] < 0.015:
-            # Ypoints[i]=0+random.randint(-50,50)/10000
             Ypoints[i] = 0
 
     # add corner point
@@ -183,7 +179,6 @@ def BotSt(Xpoints, Ypoints, sides, l, h):
     bottompoints = []
     for i in range(0, sides):
         if Ypoints[i] < 0.025:
-            # Ypoints[i]=0+random.randint(-50,50)/10000
             Ypoints[i] = 0
             bottompoints.append(i)
 
@@ -202,12 +197,10 @@ def BotSt(Xpoints, Ypoints, sides, l, h):
 def TopLefSt(Xpoints, Ypoints, sides, l, h):
     for i in range(0, sides):
         if Xpoints[i] < 0.015:
-            # Xpoints[i]=0+random.randint(-50,50)/10000
             Xpoints[i] = 0
 
     for i in range(0, sides):
         if Ypoints[i] > (h - 0.015):
-            # Ypoints[i]=h+random.randint(-50,50)/10000
             Ypoints[i] = h
 
     # add corner point
@@ -234,12 +227,10 @@ def TopLefSt(Xpoints, Ypoints, sides, l, h):
 def TopRigSt(Xpoints, Ypoints, sides, l, h):
     for i in range(0, sides):
         if Xpoints[i] > (l - 0.015):
-            # Xpoints[i]=l+random.randint(-50,50)/10000
             Xpoints[i] = l
 
     for i in range(0, sides):
         if Ypoints[i] > (h - 0.015):
-            # Ypoints[i]=h+random.randint(-50,50)/10000
             Ypoints[i] = h
 
     # add corner point
@@ -316,17 +307,14 @@ def TopSt(Xpoints, Ypoints, sides, l, h):
 def TS1(Xpoints, Ypoints, sides, l, h):
     for i in range(0, sides):
         if Xpoints[i] < 0.015:
-            # Xpoints[i]=0+random.randint(-50,50)/10000
             Xpoints[i] = 0
 
     for i in range(0, sides):
         if Ypoints[i] > (h - 0.015):
-            # Ypoints[i]=h+random.randint(-50,50)/10000
             Ypoints[i] = h
 
     for i in range(0, sides):
         if Ypoints[i] < 0.015:
-            # Ypoints[i]=0+random.randint(-50,50)/10000
             Ypoints[i] = 0
 
     # add corner point
@@ -411,7 +399,6 @@ def TS2(Xpoints, Ypoints, sides, l, h):
     bottompoints = []
     for i in range(0, sides):
         if Ypoints[i] < 0.025:
-            # Ypoints[i]=0+random.randint(-50,50)/10000
             Ypoints[i] = 0
             bottompoints.append(i)
 
@@ -430,12 +417,10 @@ def TS2(Xpoints, Ypoints, sides, l, h):
 def TS3(Xpoints, Ypoints, sides, l, h):
     for i in range(0, sides):
         if Xpoints[i] > (l - 0.015):
-            # Xpoints[i]=l+random.randint(-50,50)/10000
             Xpoints[i] = l
 
     for i in range(0, sides):
         if Ypoints[i] > (h - 0.015):
-            # Ypoints[i]=h+random.randint(-50,50)/10000
             Ypoints[i] = h
 
     # add corner point
@@ -465,12 +450,10 @@ def TS3(Xpoints, Ypoints, sides, l, h):
 
     for i in range(0, sides):
         if Xpoints[i] > (l - 0.015):
-            # Xpoints[i]=l+random.randint(-50,50)/10000
             Xpoints[i] = l
 
     for i in range(0, sides):
         if Ypoints[i] < 0.015:
-            # Ypoints[i]=0+random.randint(-50,50)/10000
             Ypoints[i] = 0
 
     # add corner point
